@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import 'tailwindcss/tailwind.css';
+import '../src/fonts.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
