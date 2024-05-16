@@ -1,1 +1,1 @@
-# servify-pwa
+# servify
