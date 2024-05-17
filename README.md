@@ -17,7 +17,7 @@ Evaluation and Rating: Users can evaluate and rate professionals after receiving
   ·JavaScript
   ·TypeScript
   
-#Used technology
+# Used technology
   ·Firebase: It is used as a cloud database to store information about users, professionals, services and other relevant data on the platform.
   ·Tailwind CSS: Used as a CSS framework to facilitate the development of responsive and consistent user interfaces.
 
