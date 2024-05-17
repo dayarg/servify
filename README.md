@@ -1,5 +1,8 @@
 # Servify - Platform for technical and professional services at home in Bogotá
 
+[Servify](https://github.com/dayarg/servify/)(https://github.com/dayarg/servify/)
+
+
 Description: Servify is a web platform that connects people with technical and/or professional knowledge 
 with clients who need their services in the comfort of their homes. The platform is designed to be used initially in the 
 city of Bogotá, with the possibility of expanding to other cities in Colombia in the future.
@@ -21,8 +24,8 @@ Evaluation and Rating: Users can evaluate and rate professionals after receiving
   - TypeScript
   
 # Used technology
-  ·Firebase: It is used as a cloud database to store information about users, professionals, services and other relevant data on the platform.
+  - Firebase: It is used as a cloud database to store information about users, professionals, services and other relevant data on the platform.
   
-  ·Tailwind CSS: Used as a CSS framework to facilitate the development of responsive and consistent user interfaces.
+  - Tailwind CSS: Used as a CSS framework to facilitate the development of responsive and consistent user interfaces.
 
 
