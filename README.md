@@ -12,13 +12,13 @@ Communication and management of requests: Users can communicate directly with pr
 Evaluation and Rating: Users can evaluate and rate professionals after receiving their services, which helps maintain the quality and reliability of the platform.
 
 # Programming languages
-  ·HTML
+  - HTML
   
-  ·CSS
+  - CSS
   
-  ·JavaScript
+  - JavaScript
   
-  ·TypeScript
+  - TypeScript
   
 # Used technology
   ·Firebase: It is used as a cloud database to store information about users, professionals, services and other relevant data on the platform.
