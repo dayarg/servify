@@ -1,6 +1,6 @@
 # Servify - Platform for technical and professional services at home in Bogotá
 
-[Servify](https://github.com/dayarg/servify/)(https://github.com/dayarg/servify/)
+[💻 Servify](https://app-servify.web.app/)
 
 
 Description: Servify is a web platform that connects people with technical and/or professional knowledge 
