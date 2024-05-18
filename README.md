@@ -22,6 +22,8 @@ Evaluation and Rating: Users can evaluate and rate professionals after receiving
   - JavaScript
   
   - TypeScript
+    
+  - React
   
 # Used technology
   [⚙️ Firebase](https://firebase.google.com/?hl=es)
