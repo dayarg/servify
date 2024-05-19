@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from '../../assets/img/logo.png';
 import Avatar from "../Avatar/Avatar";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 
 export type DrawerProps = {
@@ -103,24 +103,24 @@ const Drawer = ({ userName, photo }: DrawerProps): JSX.Element => {
           <h2 className="text-white font-bold text-lg mb-4">Menú</h2>
           <ul className="space-y-2">
             <li>
-              <a href="/" className="block text-white hover:underline">
+              <Link to="/" className="block text-white hover:underline">
                 Página principal
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="block text-white hover:underline">
+              <Link to="/" className="block text-white hover:underline">
                 Opción 1
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="block text-white hover:underline">
+              <Link to="/" className="block text-white hover:underline">
                 Opción 2
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="block text-white hover:underline">
+              <Link to="/" className="block text-white hover:underline">
                 Opción 3
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

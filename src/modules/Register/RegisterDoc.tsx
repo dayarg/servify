@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 // Assets
 import Carpintero from "../../assets/img/carpintero-banner.jpg";
 // Components
@@ -79,9 +79,9 @@ const RegisterDoc = () => {
             </div>
             <div className="mt-10 mx-auto text-center">
               <span className="text-primary">¿Ya tienes una cuenta? </span>
-              <a href="/login" className="text-secondary">
+              <Link to="/login" className="text-secondary">
                 Inicia sesión
-              </a>
+              </Link>
             </div>
           </div>
         </div>

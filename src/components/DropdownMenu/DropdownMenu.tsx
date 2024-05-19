@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 interface DropdownOptions {
   label: string;
@@ -41,14 +42,14 @@ function DropdownMenu({ id, label, options }: DropdownMenuProps): JSX.Element {
         >
           <div className="py-1 bg-white shadow-md border border-light-grey rounded-md text-secondary font-medium" role="none">
             {options.map((option, index) => (
-              <a
+              <Link
                 key={option.link}
-                href={option.link}
+                to={option.link}
                 className={`block px-4 py-2 text-sm text-gray-700 hover:text-primary ${index !== options.length - 1 && 'border-b border-light-grey'}`}
                 role="menuitem"
               >
                 {option.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // Assets
 import Plomero from "../../assets/img/plomero-banner.jpg";
 // Components
@@ -97,9 +97,9 @@ const LogIn = () => {
             </div>
             <div className="mt-10 mx-auto text-center">
               <span className="text-primary">¿No tienes una cuenta? </span>
-              <a href={"/register"} className="text-secondary">
+              <Link to={"/register"} className="text-secondary">
                 Registrate
-              </a>
+              </Link>
             </div>
           </div>
         </div>
